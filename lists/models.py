@@ -1,5 +1,5 @@
-from django.db import models
+from django import db
 
 # Create your models here.
-class Item(models.Model):
-    text = models.TextField(default="")
+class Item(db.models.Model):
+    text = db.models.TextField(default="")
